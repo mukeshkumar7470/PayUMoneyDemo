@@ -13,21 +13,4 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-
-    <style name="PayumoneyAppTheme" parent="Payumoney.AppTheme.Base">
-        <item name="android:windowBackground">@android:color/white</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowActionModeOverlay">true</item>
-        <item name="android:actionMenuTextAppearance">@style/PayumoneyAppTheme.MenuTextStyle</item>
-    </style>
-
-    <style name="PayumoneyAppTheme1" parent="PayumoneyAppTheme">
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <item name="colorPrimaryDark">@color/purple_500</item>
-        <item name="colorAccent">@color/purple_500</item>
-        <item name="colorButtonNormal">@color/purple_500</item>
-        <item name="alertDialogTheme">@style/AlertDialogStyle_Default</item>
-        <item name="actionMenuTextColor">@color/white</item>
-    </style>
 </resources>
